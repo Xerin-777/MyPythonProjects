@@ -1,0 +1,22 @@
+# Ignoruj środowiska wirtualne
+venv/
+*.venv/
+
+# Ignoruj pliki Pythona skompilowane do kodu bajtowego
+__pycache__/
+*.pyc
+
+# Ignoruj pliki specyficzne dla systemu operacyjnego
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Ignoruj pliki specyficzne dla edytorów, IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignoruj pliki z danymi wrażliwymi lub duże pliki, których nie chcesz w repozytorium
+*.log
+*.sqlite3
+.env
