@@ -20,3 +20,4 @@ Thumbs.db # Windows
 *.log
 *.sqlite3
 .env
+*.txt
